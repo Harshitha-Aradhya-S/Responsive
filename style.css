@@ -1,0 +1,26 @@
+*{
+ margin: 0rem;
+ padding: 0rem;
+}
+
+.fmain img{
+    width: 12.5rem;
+    height: 12.5rem;
+}
+.fmain1, .fmain2, .fmain3, .fmain4{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#birla {
+    flex-basis: 6.25rem;
+}
+
+#jana {
+    width: 17rem;
+}
+@media only screen and (max-width: 600px) {
+    
+}
